@@ -409,6 +409,15 @@ ALSO_ON = [
     (25, "06:29", "Solomons signs Australia pact", "C"),
     (26, "10:36", "Cartagena hostages freed", "C"),
     (27, "06:30", "KOSPI tumbles 6.2%", "C"),
+    (28, "05:00", "Bogor mine flood toll hits 9", "C"),
+    (29, "09:19", "Abrego Garcia lands in Spain", "C"),
+    (30, "10:00", "Eurozone inflation hits 4.0%", "O"),
+    (31, "04:45", "Latvia sees war 'tipping point'", "R"),
+    (32, "06:45", "Russian strike kills 1 near Kyiv", "R"),
+    (33, "00:30", "Australia inflation hits 4.9%", "O"),
+    (34, "12:25", "Iraq court backs Baghdad", "C"),
+    (35, "11:36", "Dutch embassy in Cairo closes", "R"),
+    (36, "08:02", "Delhi court keeps Kartarpur shut", "R"),
 ]
 
 STATS = [
@@ -428,14 +437,16 @@ TICKER = [
 ]
 
 # Turn A counts: 27 stories (19 v2 + 8 new); Turn B brings 36.
+# Final counts: 36 stories (13 illustrated + 23 ALSO ON).
 # Short names + 8pt bar labels: the 1-story segments are 27px wide.
-REGIONS = [("EUROPE", 8, (31, 78, 121)), ("MIDDLE EAST", 4, (196, 110, 0)),
-           ("ASIA-PACIFIC", 4, (16, 185, 129)),
-           ("S-E ASIA", 2, (6, 182, 212)),
-           ("S. ASIA", 0, (249, 115, 22)),
-           ("AMERICAS", 6, (90, 40, 140)),
+# Item 14 (Zelensky peace deal, from the Trump interview) counts as AMERICAS.
+REGIONS = [("EUROPE", 11, (31, 78, 121)), ("MIDDLE EAST", 5, (196, 110, 0)),
+           ("ASIA-PACIFIC", 5, (16, 185, 129)),
+           ("S-E ASIA", 3, (6, 182, 212)),
+           ("S. ASIA", 1, (249, 115, 22)),
+           ("AMERICAS", 7, (90, 40, 140)),
            ("LATAM", 1, (236, 72, 153)),
-           ("AFRICA", 2, (40, 120, 60))]
+           ("AFRICA", 3, (40, 120, 60))]
 
 DATE_CHECK = (
     "Left out, before Wednesday: Benghazi warship sinking (Sun 22) \u00b7 "
@@ -519,7 +530,7 @@ def main():
     f_top = font(SANS_B, 13)
     d.text((mx, 8), "THE WORLD IN ONE DAY \u00b7 ONE PAGE",
            font=f_top, fill=RED)
-    right = "27 STORIES \u00b7 8 REGIONS \u00b7 ALL FROM WEDNESDAY 25 NOVEMBER 2026"
+    right = "36 STORIES \u00b7 8 REGIONS \u00b7 ALL FROM WEDNESDAY 25 NOVEMBER 2026"
     d.text((W - mx, 8), right, font=f_top, fill=RED, anchor="ra")
     d.line([mx, 28, W - mx, 28], fill=INK, width=2)
 

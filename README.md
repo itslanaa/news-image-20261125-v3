@@ -19,11 +19,11 @@ A one-page front page, 1024×1024, drawn fresh for this day:
   ASEAN–China failing on a sea code; a Geran-5 downed; TikTok abuse in
   Israel; a Myanmar quake study. Each has an original drawn scene, a
   number, a place, a certainty badge and a named source.
-- **14 more in ALSO ON**, each with a UTC time and a source code
+- **23 more in ALSO ON**, each with a UTC time and a source code
   (C = 2+ outlets, O = official, R = one outlet, CL = one side's claim),
   plus a stats strip, a UTC ticker, a region bar
   and a world map with numbered pins 1–13 matching the stories.
-- **27 stories, 8 regions:** every story was verified as first reported
+- **36 stories, 8 regions:** every story was verified as first reported
   on Wednesday 25 November 2026 (Reuters, Xinhua, Al Jazeera, RFE/RL,
   NY Post, WSJ and others). A DATE CHECK box lists what was left out
   because it happened on an earlier day.
